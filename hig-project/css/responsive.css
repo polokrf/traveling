@@ -1,0 +1,92 @@
+
+@media screen and (max-width:640px){
+  .heading{
+    position: relative;
+  }
+  .headear-name{
+   
+   flex-direction: column;
+   position: relative;
+   
+  }
+  .header-div h1{
+    padding: 0px;
+     font-size: 25px;
+  }
+  .fa-location-dot{
+    padding: 10px auto;
+    
+  }
+  #nav-list {
+    background-color: brown;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid red;
+    box-shadow: 0px 0px 10px red;
+    margin: 5px auto;
+    border-radius: 10px;
+    position: absolute;
+    top:40px;
+    left: auto;
+    right: 0;
+    z-index: 1;
+    display: none;
+    border-top-right-radius:0px;
+    
+  }
+  #nav-list li{
+    
+    margin: 10px ;
+    color: aliceblue;
+   
+     
+    
+  }
+  #icon{
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: auto;
+    right: 10px;
+    cursor: pointer;
+  }
+  .fa-bars{
+    font-size: 30px;
+    color: blue;
+    
+  }
+  .fa-bars:hover{
+    background-color:rgba(255,255,255, 0.5);
+    border-radius: 5px;
+  }
+  
+  .form-area{
+    text-align: center;
+  }
+  .form-div{
+    display:block;
+   }
+  
+  .form-area input{
+    margin: 10px;
+  }
+  .clind-section{
+  flex-direction: column;
+   
+  }
+  .clind-about{
+    width: 100%;
+    margin: 10px auto;
+  }
+  .footer-area{
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .footer-area div{
+    width: 100%;
+   }
+   .footer-informeson1{
+    display: none;
+   }
+}
